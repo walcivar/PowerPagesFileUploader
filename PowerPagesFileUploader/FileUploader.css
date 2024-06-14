@@ -1,0 +1,62 @@
+.file-uploader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s, background-color 0.3s;
+    text-align: center;
+  }
+  
+  .file-uploader.dragging {
+    border-color: #2196f3;
+    background-color: #e3f2fd;
+  }
+  
+  .file-input-label {
+    cursor: pointer;
+    color: #2196f3;
+    margin-bottom: 10px;
+  }
+  
+  .file-uploader input[type="file"] {
+    display: none;
+  }
+  
+  .file-uploader button {
+    margin-top: 10px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .modal-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content.pdf-preview iframe {
+    width: 1400px;
+    height: 650px;
+  }
+  
+  .modal-container-large .ms-Dialog-main {
+    width: 90vw !important;
+    height: 90vh !important;
+  }
+
+  .ms-Modal-scrollableContent {
+    overflow-y: visible;
+  }
+  
