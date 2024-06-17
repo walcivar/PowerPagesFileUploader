@@ -44,6 +44,6 @@ If you want to use it also in Power Pages, do these additional steps:
 
 8)	Clear the site cache and you are free to go
 
-![image](https://github.com/walcivar/PowerPagesFileUploader/assets/5630463/03ff08cf-bd97-46f7-8280-cf7397226cbc)
+![image](https://github.com/walcivar/PowerPagesFileUploader/assets/5630463/23fa5ac1-7aa4-403a-89f9-031b2dc0f4f3)
 
 ![FileUploaderPCF](https://github.com/walcivar/PowerPagesFileUploader/assets/5630463/f38576f7-3408-4359-914a-6621fe80825d)
