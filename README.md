@@ -42,7 +42,11 @@ If you want to use it also in Power Pages, do these additional steps:
    
 ![image](https://github.com/walcivar/PowerPagesFileUploader/assets/5630463/bc51cb35-0a0f-43a5-9f7b-29a324b771d3)
 
-8)	Clear the site cache and you are free to go
+8) Create the table permission records for Contact, Environment Variable Definition and Environment Variable Value tables:
+
+![image](https://github.com/walcivar/PowerPagesFileUploader/assets/5630463/53268ffd-fa46-47a7-b1db-99deb8dffa70)
+  
+9)	Clear the site cache and you are free to go
 
 ![image](https://github.com/walcivar/PowerPagesFileUploader/assets/5630463/23fa5ac1-7aa4-403a-89f9-031b2dc0f4f3)
 
