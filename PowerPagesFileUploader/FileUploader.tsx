@@ -207,7 +207,8 @@ export const FileUploader: React.FC<IFileUploaderProps> = ({
         if(recordId)
         {
             console.log(`MDA`);
-            if (metadata.uploadedby === userId && metadata.recordid === recordId) {
+            //if (metadata.uploadedby === userId && metadata.recordid === recordId) {
+            if (metadata.recordid === recordId) {
                 files.push({
                   key: blob.name,
                   name: blob.name,
@@ -220,7 +221,8 @@ export const FileUploader: React.FC<IFileUploaderProps> = ({
         }
         else {
             console.log(`Power Pages`);
-            if (metadata.uploadedby === userId) {
+            //if (metadata.uploadedby === userId) {
+            if (metadata.recordid === recordId) {
                 files.push({
                     key: blob.name,
                     name: blob.name,
